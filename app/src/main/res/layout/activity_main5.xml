@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="id.sch.smktelkom_mlg.httpwww.fragment_julian.Main5Activity">
+
+    <Button
+        android:id="@+id/btntoast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="toast"
+        android:text="toast" />
+
+    <Button
+        android:id="@+id/btnalarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="alarm"
+        android:text="alarm" />
+
+    <Button
+        android:id="@+id/btnmaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="maps"
+        android:text="maps" />
+
+    <Button
+        android:id="@+id/btnpicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="picture"
+        android:text="picture" />
+</LinearLayout>
